@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Show me</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Show the data with liquid</h1>
+    {% assign person = site.data.leiguoyang %}
+    <p>Hi, I am {{ person.name }} from {{ person.birthplace }}</p>
+    <p>For me information about me, pleas visit my homepage at <a href={{ person.url }}>leiguoyang.com</a></p>
+  </body>
+</html>
