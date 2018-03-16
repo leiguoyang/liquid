@@ -5,8 +5,9 @@ author: leiguoyang
 ---
 
 # Project introduction
-- project: {{ project }}
-- description: {{ description }}
-- author: {{ leiguoyang }}
+
+- project: {{ page.project }}
+- description: {{ page.description }}
+- author: {{ page.author }}
 
 Updated on {{ Time.now }}
